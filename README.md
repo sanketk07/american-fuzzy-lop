@@ -1,5 +1,8 @@
 # american-fuzzy-lop
 
-##Setup
+## Installation
 
-* wget http://lcamtuf.coredump.cx/afl/releases/afl-latest.tgz
+* Download the latest release 
+```
+$ wget http://lcamtuf.coredump.cx/afl/releases/afl-latest.tgz
+```
