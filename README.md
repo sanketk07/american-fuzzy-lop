@@ -32,3 +32,11 @@ $ sudo make install - install afl
 ```
 afl-gcc -fno-stack-protector -z execstack filename.c -o outputfile
 ```
+<dl>
+  <dt></dt>
+  <dd><h6>afl-gcc: AFL compiler</h6></dd>
+  <dd><h6>-fno-stack-protector: Argument that tells the compiler to remove any stack protection such as canaries.</h6></dd>
+  <dd><h6>-z execstack: It says that we can execute code from the stack</h6></dd>
+  <dd><h6>filename.c: Source file</h6></dd>
+  <dd><h6>-o outputfile: Output file</h6></dd>
+</dl>
