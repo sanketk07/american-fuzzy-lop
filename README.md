@@ -51,3 +51,5 @@ afl-fuzz -i ./testcases -o ./results ./outputfile
   <dd><h6>results: Output directory for results/crashes</h6></dd>
   <dd><h6>outputfile: The executable file generated after running previous compilation command</h6></dd>
 </dl>
+
+![alt text](https://github.com/sanketk07/american-fuzzy-lop/blob/master/afl-output.png)
