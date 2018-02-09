@@ -40,3 +40,14 @@ afl-gcc -fno-stack-protector -z execstack filename.c -o outputfile
   <dd><h6>filename.c: Source file</h6></dd>
   <dd><h6>-o outputfile: Output file</h6></dd>
 </dl>
+
+## Checking results
+```
+afl-fuzz -i ./testcases -o ./results ./outputfile
+```
+<dl>
+  <dt></dt>
+  <dd><h6>testcases: Input directory for test cases</h6></dd>
+  <dd><h6>results: Output directory for results/crashes</h6></dd>
+  <dd><h6>outputfile: The executable file generated after running previous compilation command</h6></dd>
+</dl>
