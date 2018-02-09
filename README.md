@@ -19,10 +19,10 @@ $ cd afl-2.52b/
 
 Compile afl using make command
 ```
-$ make - to compile afl
+$ make
 ```
 
-Install afl using make command
+Install afl using make install
 ```
 $ sudo make install - install afl
 ```
