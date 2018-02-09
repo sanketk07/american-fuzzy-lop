@@ -26,3 +26,9 @@ Install afl using make install
 ```
 $ sudo make install - install afl
 ```
+
+## Fuzzing source files
+
+```
+afl-gcc -fno-stack-protector -z execstack filename.c -o outputfile
+```
